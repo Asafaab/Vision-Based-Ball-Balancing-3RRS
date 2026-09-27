@@ -1,4 +1,4 @@
-# 3-RRS Mechanism
+# Complete Robot Assembly
 
-CAD files corresponding to the final 3-RRS Ball-and-Plate mechanism
-used in the project.
+CAD files corresponding to the complete differential-drive mobile robot
+integrated with the final 3-RRS Ball-and-Plate mechanism.
