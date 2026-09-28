@@ -1,0 +1,157 @@
+clear; clc; close all;
+
+%% 1. PARÁMETROS GEOMÉTRICOS DEL ROBOT
+l1=4.5;       % Longitud del eslabón activo [cm]
+l2=7;     % Longitud del eslabón pasivo [cm] -hasta la rotula
+R_base=4.6; % Radio desde el centro a los motores [cm]
+R_plat=6.5; % Radio desde el centro a las rótulas [cm]
+
+%% 2. ORIENTACIÓN DESEADA DEL PLATO
+phi_deg=15; 
+theta_deg=0; 
+Zh=9;
+phi=deg2rad(phi_deg); theta=deg2rad(theta_deg);
+
+
+
+%% 3. MATRIZ DE ROTACIÓN
+Rx=[1 0 0;0 cos(phi) -sin(phi);0 sin(phi) cos(phi)];
+Ry=[cos(theta) 0 sin(theta);0 1 0;-sin(theta) 0 cos(theta)];
+R=Ry*Rx;
+
+%% 4. GEOMETRÍA Y CINEMÁTICA INVERSA
+psi=[0 2*pi/3 4*pi/3];
+P_base=zeros(3,3); B_plat=zeros(3,3); E_codo=zeros(3,3); alpha=zeros(1,3);
+centro_plat=[0;0;Zh];
+
+for i=1:3
+    cos_p=cos(psi(i)); sin_p=sin(psi(i));
+    P_base(:,i)=[R_base*cos_p;R_base*sin_p;0];
+    b_local=[R_plat*cos_p;R_plat*sin_p;0];
+    B_plat(:,i)=centro_plat+R*b_local;
+
+    V=B_plat(:,i)-P_base(:,i);
+    u_b=V(1)*cos_p+V(2)*sin_p;
+    w_b=V(1)*(-sin_p)+V(2)*cos_p;
+    z_b=V(3);
+
+    A=-2*l1*u_b; B=-2*l1*z_b;
+    C=l2^2-l1^2-u_b^2-w_b^2-z_b^2;
+    alpha(i)=resolver_codo_afuera(A,B,C);
+    E_codo(:,i)=P_base(:,i)+[l1*cos(alpha(i))*cos_p;l1*cos(alpha(i))*sin_p;l1*sin(alpha(i))];
+end
+
+fprintf('  Configuración de ÁNGULOS DE LOS servos necesarios\n');
+for i=1:3
+    fprintf('  Motor %d (radial a %3.0f°): alpha_%d = %7.3f°\n',i,rad2deg(psi(i)),i,rad2deg(alpha(i)));
+end
+
+%% 5. GRÁFICA 3D
+figure('Color','w','Position',[120 120 950 750]);
+hold on; grid on; axis equal; view(50,22);
+xlabel('X [cm]'); ylabel('Y [cm]'); zlabel('Z [cm]');
+title(sprintf('Plataforma 3-RRS Radial (\\phi = %d°, \\theta = %d°, Z_h = %.1f cm)',...
+    phi_deg,theta_deg,Zh),'FontSize',12);
+
+th_c=linspace(0,2*pi,60); r_cam=1.5;
+plot3(r_cam*cos(th_c),r_cam*sin(th_c),zeros(size(th_c)),'k:','LineWidth',1.5);
+
+for i=1:3
+    plot3([0 P_base(1,i)],[0 P_base(2,i)],[0 0],'k:','LineWidth',1);
+end
+
+r_disco=R_plat*1.15;
+pts_circ=centro_plat+R*[r_disco*cos(th_c);r_disco*sin(th_c);zeros(size(th_c))];
+fill3(pts_circ(1,:),pts_circ(2,:),pts_circ(3,:),[0.7 0.9 1],...
+    'FaceAlpha',0.45,'EdgeColor',[0.2 0.5 0.8],'LineWidth',1.5);
+plot3([B_plat(1,:) B_plat(1,1)],[B_plat(2,:) B_plat(2,1)],...
+    [B_plat(3,:) B_plat(3,1)],'b--','LineWidth',1.2);
+
+for i=1:3
+    h1=plot3([P_base(1,i) E_codo(1,i)],[P_base(2,i) E_codo(2,i)],...
+        [P_base(3,i) E_codo(3,i)],'-o','Color',[0 0.25 0.85],...
+        'LineWidth',4,'MarkerFaceColor',[0 0.25 0.85],'MarkerSize',6);
+    h2=plot3([E_codo(1,i) B_plat(1,i)],[E_codo(2,i) B_plat(2,i)],...
+        [E_codo(3,i) B_plat(3,i)],'-o','Color',[0.85 0.1 0.1],...
+        'LineWidth',3,'MarkerFaceColor',[0.85 0.1 0.1],'MarkerSize',6);
+    plot3(P_base(1,i),P_base(2,i),P_base(3,i),'sk','MarkerSize',9,'MarkerFaceColor',[0.2 0.2 0.2]);
+    plot3(B_plat(1,i),B_plat(2,i),B_plat(3,i),'o','MarkerSize',7,...
+        'MarkerFaceColor',[0.1 0.8 0.1],'MarkerEdgeColor','k');
+end
+
+legend([h1 h2],{'Link Activo l_1 (Hacia afuera)','Link Pasivo l_2 (Hacia acrílico)'},...
+    'Location','northeast');
+xlim([-22 22]); ylim([-22 22]); zlim([0 20]);
+
+%% 6. VALIDACIÓN GEOMÉTRICA
+fprintf('\n===============================================\n');
+fprintf('         COMPROBACIÓN GEOMÉTRICA EXACTA       \n');
+fprintf('===============================================\n');
+
+longitudes_l2_calc=zeros(1,3);
+for i=1:3
+    longitudes_l2_calc(i)=norm(B_plat(:,i)-E_codo(:,i));
+    fprintf('Longitud Barra l2_%d calculada: %.6f cm (Deseada: %.6f cm)\n',...
+        i,longitudes_l2_calc(i),l2);
+end
+
+dist_12=norm(B_plat(:,1)-B_plat(:,2));
+dist_23=norm(B_plat(:,2)-B_plat(:,3));
+dist_31=norm(B_plat(:,3)-B_plat(:,1));
+dist_teorica=sqrt(3)*R_plat;
+fprintf('Distancias entre rótulas del plato:\n');
+fprintf('  B1-B2: %.4f cm | B2-B3: %.4f cm | B3-B1: %.4f cm (Teórica: %.4f cm)\n',...
+    dist_12,dist_23,dist_31,dist_teorica);
+
+%% 7. COMPROBACIÓN MEDIANTE CINEMÁTICA DIRECTA
+fprintf('\n===============================================\n');
+fprintf('     CINEMÁTICA DIRECTA (PARTIENDO DE ALPHAS)  \n');
+fprintf('===============================================\n');
+
+f_directa=@(x) residuos_directa(x,alpha,P_base,psi,R_plat,l1,l2);
+x0=[0;0;Zh];
+opts=optimoptions('fsolve','Display','off','TolFun',1e-10,'TolX',1e-10);
+[x_sol,~,exitflag]=fsolve(f_directa,x0,opts);
+
+if exitflag>0
+    phi_calc_deg=rad2deg(x_sol(1)); theta_calc_deg=rad2deg(x_sol(2)); Zh_calc=x_sol(3);
+    fprintf('Valores Originales Dados:\n');
+    fprintf('  Roll (phi) = %8.4f° | Pitch (theta) = %8.4f° | Altura = %8.4f cm\n',...
+        phi_deg,theta_deg,Zh);
+    fprintf('Valores Recuperados por Cinemática Directa:\n');
+    fprintf('  Roll (phi) = %8.4f° [Error: %.2e°]\n',phi_calc_deg,abs(phi_deg-phi_calc_deg));
+    fprintf('  Pitch (theta) = %8.4f° [Error: %.2e°]\n',theta_calc_deg,abs(theta_deg-theta_calc_deg));
+    fprintf('  Altura (Zh) = %8.4f cm [Error: %.2e cm]\n',Zh_calc,abs(Zh-Zh_calc));
+    if max([abs(phi_deg-phi_calc_deg),abs(theta_deg-theta_calc_deg),abs(Zh-Zh_calc)])<1e-4
+        fprintf('\n>> RESULTADO: CINEMÁTICA INVERSA VALIDADA CON ÉXITO (Error ~ 0).\n');
+    end
+else
+    fprintf('El resolvedor no pudo converger en la cinemática directa.\n');
+end
+fprintf('===============================================\n');
+
+%% FUNCIONES LOCALES
+function a_rad=resolver_codo_afuera(A,B,C)
+aq=C+A; bq=-2*B; cq=C-A;
+disc=bq^2-4*aq*cq;
+if disc<0
+    error('Ángulo o altura fuera del espacio de trabajo (sin solución real).');
+end
+t1=(-bq+sqrt(disc))/(2*aq); t2=(-bq-sqrt(disc))/(2*aq);
+ang1=2*atan(t1); ang2=2*atan(t2);
+if cos(ang1)>=cos(ang2), a_rad=ang1; else, a_rad=ang2; end
+end
+
+function F=residuos_directa(x,alpha_act,P_base,psi,R_plat,l1,l2)
+phi_i=x(1); theta_i=x(2); Zh_i=x(3);
+Rx=[1 0 0;0 cos(phi_i) -sin(phi_i);0 sin(phi_i) cos(phi_i)];
+Ry=[cos(theta_i) 0 sin(theta_i);0 1 0;-sin(theta_i) 0 cos(theta_i)];
+R=Ry*Rx; F=zeros(3,1);
+for i=1:3
+    cos_p=cos(psi(i)); sin_p=sin(psi(i));
+    E_i=P_base(:,i)+[l1*cos(alpha_act(i))*cos_p;l1*cos(alpha_act(i))*sin_p;l1*sin(alpha_act(i))];
+    b_local=[R_plat*cos_p;R_plat*sin_p;0];
+    B_i=[0;0;Zh_i]+R*b_local;
+    F(i)=norm(B_i-E_i)^2-l2^2;
+end
+end
