@@ -1,0 +1,1191 @@
+﻿{
+    "Project":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\DSM_CAD_REPARADO.ipj",
+    "Files":  121,
+    "ModifiedCopies":  23,
+    "RepairedReferenceEdges":  130,
+    "OriginallyUnresolved":  19,
+    "Missing":  0,
+    "Outside":  0,
+    "GeometryRevisions":  [
+                              {
+                                  "File":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\com_top.iam",
+                                  "BeforeRevision":  "{28959CB8-4DD3-A3A4-F4A6-46A33CB9AE9F}",
+                                  "AfterRevision":  "{DF5035F4-43AC-984E-4B84-15B091B6C72F}",
+                                  "InternalNameUnchanged":  true
+                              },
+                              {
+                                  "File":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\com_top_1.iam",
+                                  "BeforeRevision":  "{872BB011-4C75-8511-3491-E688F4A0DCED}",
+                                  "AfterRevision":  "{65F0545C-4F1C-F032-7156-F19AC518E0F5}",
+                                  "InternalNameUnchanged":  true
+                              },
+                              {
+                                  "File":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\com_top_2.iam",
+                                  "BeforeRevision":  "{4E021F2E-440E-AFC3-9548-55A299BF306A}",
+                                  "AfterRevision":  "{2EDA1F63-409C-B1E3-B3E2-EEA2B5A57BED}",
+                                  "InternalNameUnchanged":  true
+                              },
+                              {
+                                  "File":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\Servo.iam",
+                                  "BeforeRevision":  "{6CD3C4D2-47A9-30B7-1D35-12B7A37B8A74}",
+                                  "AfterRevision":  "{D1146B12-4916-83D1-8112-D6B391B8A954}",
+                                  "InternalNameUnchanged":  true
+                              },
+                              {
+                                  "File":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\MG995.iam",
+                                  "BeforeRevision":  "{D2257E95-4EA9-DBF9-9456-17AD3101A96A}",
+                                  "AfterRevision":  "{1D9843D1-42AE-2F97-CCC4-C4AEA669FD17}",
+                                  "InternalNameUnchanged":  true
+                              },
+                              {
+                                  "File":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\Servo_1.iam",
+                                  "BeforeRevision":  "{BC0CA8DF-4920-D22E-0FCD-D58C66719456}",
+                                  "AfterRevision":  "{DF7C24CD-4719-BB60-FC53-12A507412AD1}",
+                                  "InternalNameUnchanged":  true
+                              },
+                              {
+                                  "File":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\MG995_1.iam",
+                                  "BeforeRevision":  "{76D9B314-4095-6615-A6E1-B797E4A04156}",
+                                  "AfterRevision":  "{723D0CA3-4772-FD4B-4BC7-749F60F48D88}",
+                                  "InternalNameUnchanged":  true
+                              },
+                              {
+                                  "File":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\Servo_2.iam",
+                                  "BeforeRevision":  "{A6947666-4962-E648-F882-DBBF7029C118}",
+                                  "AfterRevision":  "{5F11B527-4EA6-B1C6-D8E3-72B833F191F9}",
+                                  "InternalNameUnchanged":  true
+                              },
+                              {
+                                  "File":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\MG995_2.iam",
+                                  "BeforeRevision":  "{8299088C-4D65-B90E-3400-00AC7B0D714C}",
+                                  "AfterRevision":  "{DB6496E0-45F4-6B2E-B7D7-62A36A9AB296}",
+                                  "InternalNameUnchanged":  true
+                              },
+                              {
+                                  "File":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\rotula.iam",
+                                  "BeforeRevision":  "{839F3F2C-4440-E4CC-5C44-00BE4F92C996}",
+                                  "AfterRevision":  "{605B606C-4297-9D17-96F5-058BD3E5362A}",
+                                  "InternalNameUnchanged":  true
+                              },
+                              {
+                                  "File":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\rotula_1.iam",
+                                  "BeforeRevision":  "{A21AE61D-4CAA-04AF-7007-799997AF30E7}",
+                                  "AfterRevision":  "{E7B11CB4-4488-78B1-30DA-F694BA910BE7}",
+                                  "InternalNameUnchanged":  true
+                              },
+                              {
+                                  "File":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\rotula_2.iam",
+                                  "BeforeRevision":  "{6658B53B-4AD1-0779-E25B-DBB9E7655A83}",
+                                  "AfterRevision":  "{FD1CCAB4-407C-226B-2D38-7CAA90AD04B6}",
+                                  "InternalNameUnchanged":  true
+                              },
+                              {
+                                  "File":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\V6_ENSAMBLE_PLATO_anillo_A1S_borde_al_ras_camara_filtro_lente.iam",
+                                  "BeforeRevision":  "{8925F0F8-4CAF-0F80-ED8B-C4B3A27D4C14}",
+                                  "AfterRevision":  "{2389778F-42AE-DAAE-5BDC-8A8D39CD9A3D}",
+                                  "InternalNameUnchanged":  true
+                              },
+                              {
+                                  "File":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\ENSAMBLE_BALL_DSM.iam",
+                                  "BeforeRevision":  "{170B63A7-4989-2DD6-2D84-E286667D9F07}",
+                                  "AfterRevision":  "{B2AB7CF2-4E22-BBAF-BF9E-BAAD6FC4B7A4}",
+                                  "InternalNameUnchanged":  true
+                              },
+                              {
+                                  "File":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\CDRH125^CN6009.iam",
+                                  "BeforeRevision":  "{08EEC418-4CFD-740A-CAF8-38AEBE3B5675}",
+                                  "AfterRevision":  "{DC81A575-4ED1-636A-25AD-C8B73ADFA42D}",
+                                  "InternalNameUnchanged":  true
+                              },
+                              {
+                                  "File":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\CN6009.iam",
+                                  "BeforeRevision":  "{195A8EEF-4185-F3BE-0B3A-3BAD274C9F2A}",
+                                  "AfterRevision":  "{E943D4A3-4D75-36F0-FB62-C7BFB65B6F11}",
+                                  "InternalNameUnchanged":  true
+                              },
+                              {
+                                  "File":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\fuse_inline.iam",
+                                  "BeforeRevision":  "{80D45689-4949-01B9-1C18-05B41FAC7FA0}",
+                                  "AfterRevision":  "{F8110F3A-4412-DBB9-11A6-F7B32D17569F}",
+                                  "InternalNameUnchanged":  true
+                              },
+                              {
+                                  "File":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\robot_v13.iam",
+                                  "BeforeRevision":  "{CB48A894-409B-C2F0-FBA3-4BA2F58E69A9}",
+                                  "AfterRevision":  "{A4DF5941-4E0D-F724-AF25-86AC5F340E72}",
+                                  "InternalNameUnchanged":  true
+                              },
+                              {
+                                  "File":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Ensamblaje1.iam",
+                                  "BeforeRevision":  "{C5FF0649-48D6-690B-C50C-569DB387A138}",
+                                  "AfterRevision":  "{BD503093-4D40-EC0A-094C-D1B0E3479479}",
+                                  "InternalNameUnchanged":  true
+                              },
+                              {
+                                  "File":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\Tapa_2 cuadrantes\\Tapa_2_Inferior_Derecha.ipt",
+                                  "BeforeRevision":  "{22C48393-423C-A2A7-DE1E-778113A28577}",
+                                  "AfterRevision":  "{029D47EA-48ED-B9D9-423E-4BA8F8FDBCC4}",
+                                  "InternalNameUnchanged":  true
+                              },
+                              {
+                                  "File":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\Tapa_2 cuadrantes\\Tapa_2_Inferior_Izquierda.ipt",
+                                  "BeforeRevision":  "{1DA81D7D-4A32-A4B2-4DAF-37A026E7320C}",
+                                  "AfterRevision":  "{106577CB-4612-E8AB-12C3-B1B680127C2F}",
+                                  "InternalNameUnchanged":  true
+                              },
+                              {
+                                  "File":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\Tapa_2 cuadrantes\\Tapa_2_Superior_Derecha.ipt",
+                                  "BeforeRevision":  "{D7EA69CE-4B77-425F-4BA9-9192A5FA8F93}",
+                                  "AfterRevision":  "{85F7657F-484C-CE70-A040-DDB53F527D24}",
+                                  "InternalNameUnchanged":  true
+                              },
+                              {
+                                  "File":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\Tapa_2 cuadrantes\\Tapa_2_Superior_Izquierda.ipt",
+                                  "BeforeRevision":  "{03CEDFBD-4E7E-F1DD-D19C-E4A70B45C9C0}",
+                                  "AfterRevision":  "{F3484E29-49BE-9F3A-03C7-79BB1BA300D3}",
+                                  "InternalNameUnchanged":  true
+                              }
+                          ],
+    "References":  [
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\com_top.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\Component8.ipt",
+                           "Relative":  "Component8.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\com_top.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\Pieza36.ipt",
+                           "Relative":  "Pieza36.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\com_top_1.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\Component8.ipt",
+                           "Relative":  "Component8.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\com_top_1.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\Pieza46.ipt",
+                           "Relative":  "Pieza46.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\com_top_2.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\Component8.ipt",
+                           "Relative":  "Component8.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\com_top_2.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\Pieza48.ipt",
+                           "Relative":  "Pieza48.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\ENSAMBLE_BALL_DSM.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\Arandela NF E25-514 - L3 Acero 100 HV Normal.ipt",
+                           "Relative":  "Arandela NF E25-514 - L3 Acero 100 HV Normal.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\ENSAMBLE_BALL_DSM.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\Base v9.ipt",
+                           "Relative":  "Base v9.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\ENSAMBLE_BALL_DSM.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\bolita.ipt",
+                           "Relative":  "bolita.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\ENSAMBLE_BALL_DSM.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\camara_oficial_arducam.ipt",
+                           "Relative":  "camara_oficial_arducam.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\ENSAMBLE_BALL_DSM.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\Link1 v7.ipt",
+                           "Relative":  "Link1 v7.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\ENSAMBLE_BALL_DSM.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\Link2 v9.ipt",
+                           "Relative":  "Link2 v9.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\ENSAMBLE_BALL_DSM.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\MG995.iam",
+                           "Relative":  "MG995.iam",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\ENSAMBLE_BALL_DSM.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\MG995_1.iam",
+                           "Relative":  "MG995_1.iam",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\ENSAMBLE_BALL_DSM.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\MG995_2.iam",
+                           "Relative":  "MG995_2.iam",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\ENSAMBLE_BALL_DSM.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\MR104_ball_bearing.ipt",
+                           "Relative":  "MR104_ball_bearing.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\ENSAMBLE_BALL_DSM.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\rotula.iam",
+                           "Relative":  "rotula.iam",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\ENSAMBLE_BALL_DSM.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\rotula_1.iam",
+                           "Relative":  "rotula_1.iam",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\ENSAMBLE_BALL_DSM.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\rotula_2.iam",
+                           "Relative":  "rotula_2.iam",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\ENSAMBLE_BALL_DSM.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\SERVO ARM HORN 25T ALUMINIUM.ipt",
+                           "Relative":  "SERVO ARM HORN 25T ALUMINIUM.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\ENSAMBLE_BALL_DSM.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\top_panel v5.ipt",
+                           "Relative":  "top_panel v5.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\ENSAMBLE_BALL_DSM.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\top_ring v2.ipt",
+                           "Relative":  "top_ring v2.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\ENSAMBLE_BALL_DSM.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\Tornillo de cabeza hexagonal hueca ISO 4762 - M3 x 15 Acero 4.6 Normal.ipt",
+                           "Relative":  "Tornillo de cabeza hexagonal hueca ISO 4762 - M3 x 15 Acero 4.6 Normal.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\ENSAMBLE_BALL_DSM.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\Tornillo de cabeza hexagonal hueca ISO 4762 - M5 x 30 Acero 4.6 Normal.ipt",
+                           "Relative":  "Tornillo de cabeza hexagonal hueca ISO 4762 - M5 x 30 Acero 4.6 Normal.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\ENSAMBLE_BALL_DSM.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\Tuerca autoblocante hexagonal normal ISO 7040 - M3 Acero 6 Normal.ipt",
+                           "Relative":  "Tuerca autoblocante hexagonal normal ISO 7040 - M3 Acero 6 Normal.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\ENSAMBLE_BALL_DSM.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\Tuerca autoblocante hexagonal normal ISO 7040 - M4 Acero 6 Normal.ipt",
+                           "Relative":  "Tuerca autoblocante hexagonal normal ISO 7040 - M4 Acero 6 Normal.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\ENSAMBLE_BALL_DSM.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\Tuerca autoblocante hexagonal normal ISO 7040 - M5 Acero 6 Normal.ipt",
+                           "Relative":  "Tuerca autoblocante hexagonal normal ISO 7040 - M5 Acero 6 Normal.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\ENSAMBLE_BALL_DSM.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\Tuerca autoblocante hexagonal normal ISO 7040 - M5 Acero 6 Normal_1.ipt",
+                           "Relative":  "Tuerca autoblocante hexagonal normal ISO 7040 - M5 Acero 6 Normal_1.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\ENSAMBLE_BALL_DSM.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\V6_ENSAMBLE_PLATO_anillo_A1S_borde_al_ras_camara_filtro_lente.iam",
+                           "Relative":  "V6_ENSAMBLE_PLATO_anillo_A1S_borde_al_ras_camara_filtro_lente.iam",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\MG995.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\Servo.iam",
+                           "Relative":  "Servo.iam",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\MG995_1.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\Servo_1.iam",
+                           "Relative":  "Servo_1.iam",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\MG995_2.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\Servo_2.iam",
+                           "Relative":  "Servo_2.iam",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\rotula.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\Component33.ipt",
+                           "Relative":  "Component33.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\rotula.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\Component34.ipt",
+                           "Relative":  "Component34.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\rotula_1.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\Component33.ipt",
+                           "Relative":  "Component33.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\rotula_1.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\Component34.ipt",
+                           "Relative":  "Component34.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\rotula_2.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\Component33.ipt",
+                           "Relative":  "Component33.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\rotula_2.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\Component34.ipt",
+                           "Relative":  "Component34.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\Servo.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\bolts.ipt",
+                           "Relative":  "bolts.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\Servo.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\com_but.ipt",
+                           "Relative":  "com_but.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\Servo.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\com_top.iam",
+                           "Relative":  "com_top.iam",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\Servo.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\Gear.ipt",
+                           "Relative":  "Gear.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\Servo_1.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\bolts.ipt",
+                           "Relative":  "bolts.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\Servo_1.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\com_but.ipt",
+                           "Relative":  "com_but.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\Servo_1.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\com_top_1.iam",
+                           "Relative":  "com_top_1.iam",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\Servo_1.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\Gear.ipt",
+                           "Relative":  "Gear.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\Servo_2.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\bolts.ipt",
+                           "Relative":  "bolts.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\Servo_2.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\com_but.ipt",
+                           "Relative":  "com_but.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\Servo_2.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\com_top_2.iam",
+                           "Relative":  "com_top_2.iam",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\Servo_2.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\Gear.ipt",
+                           "Relative":  "Gear.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\V6_ENSAMBLE_PLATO_anillo_A1S_borde_al_ras_camara_filtro_lente.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\adaptador_gran_angular.ipt",
+                           "Relative":  "adaptador_gran_angular.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\V6_ENSAMBLE_PLATO_anillo_A1S_borde_al_ras_camara_filtro_lente.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\anillo_A1S_negro.ipt",
+                           "Relative":  "anillo_A1S_negro.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\V6_ENSAMBLE_PLATO_anillo_A1S_borde_al_ras_camara_filtro_lente.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\filtro_IR_11x1.ipt",
+                           "Relative":  "filtro_IR_11x1.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\V6_ENSAMBLE_PLATO_anillo_A1S_borde_al_ras_camara_filtro_lente.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\lente_Apexel_063x_ref.ipt",
+                           "Relative":  "lente_Apexel_063x_ref.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\V6_ENSAMBLE_PLATO_anillo_A1S_borde_al_ras_camara_filtro_lente.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\soporte_filtro_IR_v2.ipt",
+                           "Relative":  "soporte_filtro_IR_v2.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\V6_ENSAMBLE_PLATO_anillo_A1S_borde_al_ras_camara_filtro_lente.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\tira_IR_seg1.ipt",
+                           "Relative":  "tira_IR_seg1.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\V6_ENSAMBLE_PLATO_anillo_A1S_borde_al_ras_camara_filtro_lente.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\tira_IR_seg2.ipt",
+                           "Relative":  "tira_IR_seg2.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\V6_ENSAMBLE_PLATO_anillo_A1S_borde_al_ras_camara_filtro_lente.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\tira_IR_seg3.ipt",
+                           "Relative":  "tira_IR_seg3.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\V6_ENSAMBLE_PLATO_anillo_A1S_borde_al_ras_camara_filtro_lente.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\tira_IR_seg4.ipt",
+                           "Relative":  "tira_IR_seg4.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\V6_ENSAMBLE_PLATO_anillo_A1S_borde_al_ras_camara_filtro_lente.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\tira_IR_seg5.ipt",
+                           "Relative":  "tira_IR_seg5.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\V6_ENSAMBLE_PLATO_anillo_A1S_borde_al_ras_camara_filtro_lente.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\tira_IR_seg6.ipt",
+                           "Relative":  "tira_IR_seg6.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\V6_ENSAMBLE_PLATO_anillo_A1S_borde_al_ras_camara_filtro_lente.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\tira_IR_seg7.ipt",
+                           "Relative":  "tira_IR_seg7.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Ensamblaje1.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_001\\40225_txp-6mm x 80mm axle.ipt",
+                           "Relative":  "Dependencias\\EXT_001\\40225_txp-6mm x 80mm axle.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Ensamblaje1.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_002\\ENSAMBLE_BALL_DSM.iam",
+                           "Relative":  "Dependencias\\EXT_002\\ENSAMBLE_BALL_DSM.iam",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Ensamblaje1.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_003\\39057_txm-12v 3000mah battery pack assembly.ipt",
+                           "Relative":  "Dependencias\\EXT_003\\39057_txm-12v 3000mah battery pack assembly.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Ensamblaje1.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_003\\Motor Driver.ipt",
+                           "Relative":  "Dependencias\\EXT_003\\Motor Driver.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Ensamblaje1.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_003\\myRIO-1900-MJG_v1.ipt",
+                           "Relative":  "Dependencias\\EXT_003\\myRIO-1900-MJG_v1.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Ensamblaje1.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_003\\Raspberry Pi 4 Model B.ipt",
+                           "Relative":  "Dependencias\\EXT_003\\Raspberry Pi 4 Model B.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Ensamblaje1.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_003\\Tetrix 32mm Channel.ipt",
+                           "Relative":  "Dependencias\\EXT_003\\Tetrix 32mm Channel.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Ensamblaje1.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_003\\Tetrix 4 inch Dual Omni Wheel(2).ipt",
+                           "Relative":  "Dependencias\\EXT_003\\Tetrix 4 inch Dual Omni Wheel(2).ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Ensamblaje1.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_003\\Tetrix 4 inch Wheel.ipt",
+                           "Relative":  "Dependencias\\EXT_003\\Tetrix 4 inch Wheel.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Ensamblaje1.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_003\\Tetrix 416mm Channel.ipt",
+                           "Relative":  "Dependencias\\EXT_003\\Tetrix 416mm Channel.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Ensamblaje1.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_003\\Tetrix 96mm Channel.ipt",
+                           "Relative":  "Dependencias\\EXT_003\\Tetrix 96mm Channel.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Ensamblaje1.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_003\\Tetrix Battery Plate(2).ipt",
+                           "Relative":  "Dependencias\\EXT_003\\Tetrix Battery Plate(2).ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Ensamblaje1.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_003\\Tetrix Flat 160mm x26mm.ipt",
+                           "Relative":  "Dependencias\\EXT_003\\Tetrix Flat 160mm x26mm.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Ensamblaje1.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_003\\Tetrix Flat 288mmx26mm.ipt",
+                           "Relative":  "Dependencias\\EXT_003\\Tetrix Flat 288mmx26mm.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Ensamblaje1.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_003\\Tetrix Flat Building Plate.ipt",
+                           "Relative":  "Dependencias\\EXT_003\\Tetrix Flat Building Plate.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Ensamblaje1.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_003\\Tetrix Gear Hub Spacer.ipt",
+                           "Relative":  "Dependencias\\EXT_003\\Tetrix Gear Hub Spacer.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Ensamblaje1.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_003\\Tetrix Motor Mount.ipt",
+                           "Relative":  "Dependencias\\EXT_003\\Tetrix Motor Mount.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Ensamblaje1.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_003\\Tetrix StandOff Post 6-32x28mm.ipt",
+                           "Relative":  "Dependencias\\EXT_003\\Tetrix StandOff Post 6-32x28mm.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Ensamblaje1.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Dependencias\\EXT_003\\Tetrix TorqueNADO DC Motor(2).ipt",
+                           "Relative":  "Dependencias\\EXT_003\\Tetrix TorqueNADO DC Motor(2).ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Ensamblaje1.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\39060_txm-standard servo bracket.ipt",
+                           "Relative":  "Piezas\\39060_txm-standard servo bracket.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Ensamblaje1.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\39176_tetrixswitchmount.ipt",
+                           "Relative":  "Piezas\\39176_tetrixswitchmount.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Ensamblaje1.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\adaptador_eje.ipt",
+                           "Relative":  "Piezas\\adaptador_eje.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Ensamblaje1.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\Apagador 2024.ipt",
+                           "Relative":  "Piezas\\Apagador 2024.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Ensamblaje1.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\Base_inclinacion.ipt",
+                           "Relative":  "Piezas\\Base_inclinacion.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Ensamblaje1.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\CN6009.iam",
+                           "Relative":  "Piezas\\CN6009.iam",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Ensamblaje1.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\robot_v13.iam",
+                           "Relative":  "Piezas\\robot_v13.iam",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Ensamblaje1.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\Tapa_2 - copia.ipt",
+                           "Relative":  "Piezas\\Tapa_2 - copia.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Ensamblaje1.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\Tetrix 485HB Standard Servo with Horn(2).ipt",
+                           "Relative":  "Piezas\\Tetrix 485HB Standard Servo with Horn(2).ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Ensamblaje1.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\Tetrix 6mm x 100mm Axle(2).ipt",
+                           "Relative":  "Piezas\\Tetrix 6mm x 100mm Axle(2).ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Ensamblaje1.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\Tetrix 96mm Channel(2).ipt",
+                           "Relative":  "Piezas\\Tetrix 96mm Channel(2).ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Ensamblaje1.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\Tetrix Axle Hub With Set Screw(2).ipt",
+                           "Relative":  "Piezas\\Tetrix Axle Hub With Set Screw(2).ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Ensamblaje1.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\Tetrix Axle Spacer 0.125.ipt",
+                           "Relative":  "Piezas\\Tetrix Axle Spacer 0.125.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Ensamblaje1.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\Tetrix Bronze Bushing 6mm.ipt",
+                           "Relative":  "Piezas\\Tetrix Bronze Bushing 6mm.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Ensamblaje1.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\Tetrix Flat 96mmx26mm.ipt",
+                           "Relative":  "Piezas\\Tetrix Flat 96mmx26mm.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Ensamblaje1.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\Tetrix L Bracket.ipt",
+                           "Relative":  "Piezas\\Tetrix L Bracket.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\CDRH125^CN6009.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\001^CDRH125_CN6009.ipt",
+                           "Relative":  "001^CDRH125_CN6009.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\CDRH125^CN6009.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\002^CDRH125_CN6009.ipt",
+                           "Relative":  "002^CDRH125_CN6009.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\CDRH125^CN6009.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\003^CDRH125_CN6009.ipt",
+                           "Relative":  "003^CDRH125_CN6009.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\CDRH125^CN6009.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\005^CDRH125_CN6009.ipt",
+                           "Relative":  "005^CDRH125_CN6009.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\CN6009.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\Board^CN6009.ipt",
+                           "Relative":  "Board^CN6009.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\CN6009.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\CAP_SMD_0603_H0.50^CN6009.ipt",
+                           "Relative":  "CAP_SMD_0603_H0.50^CN6009.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\CN6009.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\CAP_SMD_AL_08.0x10.0^CN6009.ipt",
+                           "Relative":  "CAP_SMD_AL_08.0x10.0^CN6009.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\CN6009.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\CDRH125^CN6009.iam",
+                           "Relative":  "CDRH125^CN6009.iam",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\CN6009.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\Diode_DO214AC(SMA)^CN6009.ipt",
+                           "Relative":  "Diode_DO214AC(SMA)^CN6009.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\CN6009.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\RES_3296W^CN6009.ipt",
+                           "Relative":  "RES_3296W^CN6009.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\CN6009.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\RES_SMD_0603^CN6009.ipt",
+                           "Relative":  "RES_SMD_0603^CN6009.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\CN6009.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\TO-263-5^CN6009.ipt",
+                           "Relative":  "TO-263-5^CN6009.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\fuse_inline.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\clip17.ipt",
+                           "Relative":  "clip17.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\fuse_inline.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\clip2.ipt",
+                           "Relative":  "clip2.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\fuse_inline.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\fusible.ipt",
+                           "Relative":  "fusible.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\robot_v13.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\CP_Radial_D10.0mm_P5.00mm.ipt",
+                           "Relative":  "CP_Radial_D10.0mm_P5.00mm.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\robot_v13.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\D_DO-15_P10.16mm_Horizontal.ipt",
+                           "Relative":  "D_DO-15_P10.16mm_Horizontal.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\robot_v13.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\fuse_inline.iam",
+                           "Relative":  "fuse_inline.iam",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\robot_v13.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\PinHeader_1x02_P2.54mm_Vertical.ipt",
+                           "Relative":  "PinHeader_1x02_P2.54mm_Vertical.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\robot_v13.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\PinHeader_1x03_P2.54mm_Vertical.ipt",
+                           "Relative":  "PinHeader_1x03_P2.54mm_Vertical.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\robot_v13.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\PinHeader_1x04_P2.54mm_Vertical.ipt",
+                           "Relative":  "PinHeader_1x04_P2.54mm_Vertical.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\robot_v13.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.ipt",
+                           "Relative":  "R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\robot_v13.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\robot_v13_PCB.ipt",
+                           "Relative":  "robot_v13_PCB.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\robot_v13.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\robot_v13_silkscreen.ipt",
+                           "Relative":  "robot_v13_silkscreen.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\robot_v13.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\robot_v13_soldermask.ipt",
+                           "Relative":  "robot_v13_soldermask.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\robot_v13.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\robot_v13_soldermask_1.ipt",
+                           "Relative":  "robot_v13_soldermask_1.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\robot_v13.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal.ipt",
+                           "Relative":  "TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\robot_v13.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal.ipt",
+                           "Relative":  "TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\robot_v13.iam",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\TO-220-3_Vertical.ipt",
+                           "Relative":  "TO-220-3_Vertical.ipt",
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\Tapa_2 cuadrantes\\Tapa_2_Inferior_Derecha.ipt",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\Tapa_2 - copia.ipt",
+                           "Relative":  null,
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\Tapa_2 cuadrantes\\Tapa_2_Inferior_Izquierda.ipt",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\Tapa_2 - copia.ipt",
+                           "Relative":  null,
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\Tapa_2 cuadrantes\\Tapa_2_Superior_Derecha.ipt",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\Tapa_2 - copia.ipt",
+                           "Relative":  null,
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       },
+                       {
+                           "Document":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\Tapa_2 cuadrantes\\Tapa_2_Superior_Izquierda.ipt",
+                           "Reference":  "D:\\Utec\\Ciclo10\\DSM\\DSM_CAD_REPARADO\\Piezas\\Tapa_2 - copia.ipt",
+                           "Relative":  null,
+                           "Missing":  false,
+                           "InsideCopy":  true,
+                           "IdentityDifferent":  false
+                       }
+                   ]
+}
