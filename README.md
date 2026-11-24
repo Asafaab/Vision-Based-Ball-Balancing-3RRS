@@ -1,407 +1,616 @@
 
 # Vision-Based Ball Balancing Using a 3-RRS Parallel Mechanism
 
-## Mounted on a Differential-Drive Mobile Robot
+### Mounted on a Differential-Drive Mobile Robot
 
 <p align="center">
-  <img src="Figures/A_Isometrica.png"
-       alt="CAD model of the mobile ball-balancing robot"
-       width="720">
+  <strong>
+    Universidad de Ingeniería y Tecnología (UTEC)
+  </strong>
+  <br>
+  Mechatronics Engineering | Diseño de Sistemas Mecatrónicos
 </p>
 
 <p align="center">
-  <em>CAD representation of the differential-drive mobile
-  robot integrated with the 3-RRS Ball-and-Plate mechanism.</em>
+  <img src="https://img.shields.io/badge/CAD-Autodesk_Inventor_2025-blue">
+  <img src="https://img.shields.io/badge/PCB-KiCad_9-green">
+  <img src="https://img.shields.io/badge/Analysis-MATLAB-orange">
+  <img src="https://img.shields.io/badge/License-GPL--3.0-lightgrey">
+</p>
+
+---
+
+## Digital and Physical Prototype
+
+This project presents a vision-based ball-balancing
+system that integrates a three-degree-of-freedom
+3-RRS parallel mechanism with a differential-drive
+mobile robotic platform.
+
+<table>
+<tr>
+<th align="center">Digital Prototype</th>
+<th align="center">Physical Prototype</th>
+</tr>
+<tr>
+<td width="50%" align="center">
+<img src="CAD_Visualizations/Full_Robot_Assembly.png"
+alt="Complete CAD assembly"
+width="100%">
+</td>
+<td width="50%" align="center">
+<img src="Physical_Prototype_Photos/assembly_01_overview.jpg"
+alt="Physical robotic prototype"
+width="100%">
+</td>
+</tr>
+<tr>
+<td align="center">
+<em>Autodesk Inventor CAD model</em>
+</td>
+<td align="center">
+<em>Assembled laboratory prototype</em>
+</td>
+</tr>
+</table>
+
+<p align="center">
+<b>
+Mechanical Design | Computer Vision | Parallel Robotics |
+Embedded Control | Power Electronics
+</b>
 </p>
 
 ---
 
 ## 1. Project Overview
 
-This repository contains the mechanical design, CAD assemblies,
-technical drawings, kinematic analysis, and supporting
-documentation developed for the project:
+The project combines a mobile robotic platform
+with a **3-RRS Ball-and-Plate parallel mechanism**
+designed to regulate the position of a ball
+through controlled platform inclination.
 
-**Vision-Based Ball Balancing Using a 3-RRS Parallel Mechanism
-Mounted on a Differential-Drive Mobile Robot.**
+The system integrates:
 
-The project integrates a differential-drive mobile robot with
-a three-degree-of-freedom 3-RRS parallel mechanism designed
-to regulate the position of a ball on a movable platform.
-
-The robotic system combines locomotion, visual perception,
-inclination measurement, and balancing control.
-
-The prototype uses two main processing platforms:
-
-- **NI myRIO-1900:** differential-drive motor control,
-  encoder acquisition, and mobile-base inclination sensing.
-- **Raspberry Pi 5:** image acquisition and processing using
-  an Arducam OV9281 global-shutter camera, together with
-  actuation of the Ball-and-Plate mechanism.
-
-The 3-RRS mechanism adjusts the orientation of the upper
-platform in roll and pitch to compensate for ball-position
-errors and disturbances.
-
----
-
-## 2. Main Features
-
-- Differential-drive mobile robotic platform.
-- TETRIX aluminum chassis.
-- Two DC drive motors with encoder feedback.
-- Passive omnidirectional support wheels.
-- 3-RRS parallel Ball-and-Plate mechanism.
-- Three MG996R balancing servomotors.
-- Additional servomotor for inclination compensation.
+- Differential-drive mobile locomotion.
+- A three-limb 3-RRS parallel mechanism.
 - Vision-based ball-position estimation.
-- Arducam OV9281 global-shutter camera.
-- Raspberry Pi 5 for image processing.
-- NI myRIO-1900 for mobile-base control.
-- CAD assemblies developed in Autodesk Inventor 2025.
-- STEP files for interoperability.
-- Technical drawings and manufacturing documentation.
-- Four-piece protective-cover CAD design.
+- A transparent acrylic balancing platform.
+- Circular LED illumination.
+- Camera-based visual feedback.
+- Distributed processing and actuation.
+- A dedicated power-distribution PCB.
+
+The mechanical structure was designed and
+assembled using Autodesk Inventor and
+modular TETRIX components.
+
+### Main Processing Units
+
+**NI myRIO-1900**
+
+- Mobile robot drive control.
+- Encoder signal acquisition.
+- Inclination measurement.
+- Motor control and feedback.
+
+**Raspberry Pi 5**
+
+- Image acquisition and processing.
+- Ball-position detection.
+- Camera integration.
+- Ball-and-Plate actuation.
+
+The vision system uses an Arducam OV9281
+global-shutter camera positioned below
+the balancing platform.
 
 ---
 
-## 3. System Architecture
+## 2. System Architecture
 
-The system consists of five main subsystems.
+The robotic platform consists of five
+main functional subsystems.
 
-### Mobile Base
+| Subsystem | Description |
+|---|---|
+| Mobile Robot | Differential-drive TETRIX chassis |
+| 3-RRS Mechanism | Parallel balancing platform |
+| Vision System | Camera and LED illumination |
+| Control System | NI myRIO-1900 and Raspberry Pi 5 |
+| Power Distribution | Dedicated PCB and power branches |
 
-The mobile platform uses a differential-drive configuration
-with two actuated wheels and passive support wheels.
-The chassis is constructed using modular TETRIX
-aluminum components.
+### Mobile Robotic Platform
 
-### 3-RRS Balancing Mechanism
+The mobile robot incorporates a modular
+aluminum structure, two driven wheels,
+and passive omnidirectional support wheels.
 
-The parallel mechanism consists of three actuated limbs
-connected to the movable platform through passive links
-and spherical joints.
+The platform provides mechanical support
+for the balancing mechanism and its
+associated electronics.
 
-The mechanism adjusts the platform orientation to
-regulate the position of the ball.
+### 3-RRS Parallel Mechanism
+
+The balancing mechanism consists of three
+servo-actuated limbs connected to a movable
+platform through passive links and
+spherical joints.
+
+Its configuration allows controlled
+platform inclination in roll and pitch.
 
 ### Vision System
 
-The Arducam OV9281 camera is positioned beneath
-the balancing platform to acquire images for
-ball-position estimation.
+The vision subsystem incorporates:
 
-### Inclination Compensation
-
-An additional servomotor and supporting mechanism
-provide the mechanical arrangement required for
-mobile-base inclination compensation.
+- Arducam OV9281 camera module.
+- Camera lens and optical filter.
+- Camera mounting structure.
+- Circular LED illumination.
+- Transparent acrylic platform.
 
 ### Distributed Control
 
-The NI myRIO handles mobile-base locomotion and
-inclination sensing, while the Raspberry Pi 5 handles
-vision processing and Ball-and-Plate actuation.
+The NI myRIO-1900 manages the mobile robot
+control functions, while the Raspberry Pi 5
+handles image processing and balancing
+mechanism actuation.
 
 ---
 
-## 4. Repository Structure
+## 3. Mechanical Design and CAD Assembly
 
-The repository is organized as follows:
+The mechanical system was developed using
+**Autodesk Inventor Professional 2025**.
 
-```text
-Vision-Based-Ball-Balancing-3RRS/
-|
-|-- CAD/
-|   `-- Complete_Robot/
-|       |-- Complete_Robot_Assembly.stp
-|       |-- 3RRS_Mechanism.stp
-|       |-- Ensamblaje1.zip
-|       `-- README.md
-|
-|-- Updated_Assembly/
-|   |-- Ensamblaje1.iam
-|   |-- DSM_CAD_REPARADO.ipj
-|   |-- Piezas/
-|   |-- Dependencias/
-|   |-- OldVersions/
-|   `-- _Verificacion/
-|
-|-- Cinemática_RSS/
-|   `-- Cinemática_RSS.m.txt
-|
-|-- Figures/
-|   |-- 3-RRS.png
-|   |-- A_Isometrica.png
-|   |-- B_Frontal.png
-|   |-- C_Lateral_izquierda.png
-|   |-- D_Superior.png
-|   |-- fig8_mechanism.png
-|   `-- fig9a_isometric_labeled.png
-|
-|-- Assembly_Photos/
-|   |-- assembly_01_overview.jpg
-|   |-- assembly_02_front.jpg
-|   |-- assembly_03_side.jpg
-|   `-- assembly_04_power_switch.jpg
-|
-|-- Planos/
-|   `-- Planos.zip
-|
-|-- README.md
-`-- LICENSE
-```
+Native Inventor files and STEP models
+are provided for mechanical inspection,
+design modification, and interoperability.
+
+### 3.1 Complete Robot Assembly
+
+<p align="center">
+<img src="CAD_Visualizations/Full_Robot_Assembly.png"
+alt="Complete robot assembly"
+width="800">
+</p>
+
+<p align="center">
+<em>
+Complete CAD assembly of the differential-drive
+robot integrated with the 3-RRS Ball-and-Plate
+mechanism.
+</em>
+</p>
+
+### 3.2 Complete Robot Exploded View
+
+<p align="center">
+<img src="CAD_Visualizations/Full_Robot_Exploded_View.png"
+alt="Full robot exploded assembly"
+width="800">
+</p>
+
+<p align="center">
+<em>
+Exploded view illustrating the main mechanical
+and electronic subsystems of the robotic platform.
+</em>
+</p>
+
+The exploded assembly highlights:
+
+- Upper structural platform.
+- Mobile robot chassis.
+- Drive motor assemblies.
+- Wheel assemblies.
+- Electronic modules.
+- 3-RRS balancing mechanism.
+- Mechanical supports and interfaces.
+
+### 3.3 3-RRS Mechanism Exploded View
+
+<p align="center">
+<img src="CAD_Visualizations/3RRS_Mechanism_Exploded_View.png"
+alt="3-RRS exploded assembly"
+width="800">
+</p>
+
+<p align="center">
+<em>
+Detailed exploded CAD representation of the 3-RRS
+Ball-and-Plate mechanism with component
+identification and bill of materials.
+</em>
+</p>
+
+The mechanism includes:
+
+- Transparent acrylic platform.
+- Upper structural ring.
+- LED ring and supports.
+- Spherical joints.
+- Passive links.
+- Actuated arms.
+- Three servomotors.
+- Servo mounting structure.
+- Camera and optical components.
 
 ---
 
-## 5. Original CAD Files
+## 4. Vision and LED Illumination System
 
-The original CAD files are available in:
+The vision subsystem is integrated beneath
+the transparent acrylic balancing platform.
 
-[CAD/Complete_Robot](CAD/Complete_Robot/)
+The circular LED arrangement supports
+illumination of the monitored area,
+while the camera is mounted below
+the platform for visual acquisition.
 
-This directory contains:
+<p align="center">
+<img src="CAD_Visualizations/Camera_and_LED_System.png"
+alt="Camera and LED illumination subsystem"
+width="800">
+</p>
 
-| File | Description |
+<p align="center">
+<em>
+Detailed CAD visualization of the LED ring
+and camera optical assembly.
+</em>
+</p>
+
+### Main Optical Components
+
+| Component | Function |
 |---|---|
-| `Complete_Robot_Assembly.stp` | STEP model of the integrated robot |
-| `3RRS_Mechanism.stp` | STEP model of the balancing mechanism |
-| `Ensamblaje1.zip` | Original assembly package |
+| Transparent Acrylic Platform | Balancing surface and optical access |
+| LED Ring | Illumination of the monitored region |
+| Camera Module | Image acquisition |
+| Lens Assembly | Optical image formation |
+| Optical Filter | Optical filtering |
+| Camera Support | Mechanical positioning |
 
-The STEP files are provided for CAD interoperability.
+The design includes a dedicated mechanical
+arrangement for the camera and its optical
+components.
 
 ---
 
-## 6. Updated Autodesk Inventor Assembly
+## 5. Physical Prototype
 
-The updated assembly is located in:
+The physical prototype was assembled using
+a modular TETRIX aluminum chassis.
 
-[Updated_Assembly](Updated_Assembly/)
+The balancing mechanism is mounted above
+the mobile base, integrating the actuation
+system, transparent platform, and
+vision-related components.
 
-This directory contains the repaired Autodesk Inventor
-project and its associated component dependencies.
+### Prototype Photographs
 
-The updated design includes the TETRIX mobile platform,
-the 3-RRS mechanism, onboard components, and the
-four-piece protective-cover CAD configuration.
+<table>
+<tr>
+<td align="center" width="50%">
+<img src="Physical_Prototype_Photos/assembly_01_overview.jpg"
+width="100%">
+<br>
+<b>Isometric Overview</b>
+</td>
+<td align="center" width="50%">
+<img src="Physical_Prototype_Photos/assembly_02_front.jpg"
+width="100%">
+<br>
+<b>Front View</b>
+</td>
+</tr>
+<tr>
+<td align="center">
+<img src="Physical_Prototype_Photos/assembly_03_side.jpg"
+width="100%">
+<br>
+<b>Side View</b>
+</td>
+<td align="center">
+<img src="Physical_Prototype_Photos/assembly_04_power_switch.jpg"
+width="100%">
+<br>
+<b>Power-Switch Detail</b>
+</td>
+</tr>
+</table>
 
-### Opening the Project
+These photographs document the mechanical
+integration of the mobile base, balancing
+mechanism, wheel assemblies, structural
+supports, and electrical wiring.
 
-**Software:** Autodesk Inventor Professional 2025.
+**Note:** Some CAD configurations represent
+design updates and may differ from the
+photographed physical prototype.
 
-1. Download or clone the complete repository.
-2. Preserve the directory structure.
+---
+
+## 6. Power-Distribution PCB
+
+A dedicated power-distribution printed
+circuit board was developed for the
+robotic platform.
+
+The PCB was designed using **KiCad 9**
+and documented for fabrication using
+the laboratory CNC manufacturing process.
+
+### PCB 3D Visualization
+
+<p align="center">
+<img src="Power_Distribution_PCB/imagenes/pcb3d_iso.png"
+alt="Power distribution PCB"
+width="700">
+</p>
+
+<p align="center">
+<em>
+Three-dimensional CAD representation of
+the power-distribution PCB.
+</em>
+</p>
+
+### PCB Specifications
+
+| Parameter | Specification |
+|---|---|
+| Design Software | KiCad 9 |
+| PCB Dimensions | 66.1 x 57.9 mm |
+| Board Type | Single-sided |
+| Input Supply | 12 V |
+| Fabrication | Laboratory CNC |
+| Main Function | Power distribution and protection |
+
+The electrical architecture includes
+reverse-polarity protection, transient
+protection, fused distribution branches,
+and auxiliary power connections.
+
+### PCB Design Resources
+
+| Resource | Repository |
+|---|---|
+| KiCad Source Files | [View files](Power_Distribution_PCB/kicad/) |
+| PCB Manufacturing Files | [View files](Power_Distribution_PCB/cnc_L414/) |
+| PCB 3D CAD Model | [View files](Power_Distribution_PCB/cad3d/) |
+| Electrical Diagrams | [View files](Power_Distribution_PCB/diagramas/) |
+| PCB Images | [View files](Power_Distribution_PCB/imagenes/) |
+| Thermal Analysis | [View files](Power_Distribution_PCB/termico/) |
+| Technical Report | [View PDF](Power_Distribution_PCB/Anexo2_PCB_PDE-DSM_v1.pdf) |
+| Pinout and Connections | [View document](Power_Distribution_PCB/Conexiones_y_pines.md) |
+| Verification Report | [View document](Power_Distribution_PCB/Informe_verificacion.md) |
+
+For detailed manufacturing requirements
+and electrical specifications, consult
+the original PCB design documentation.
+
+---
+
+## 7. Engineering Design Resources
+
+The repository provides source files
+and technical resources for inspecting,
+reproducing, and modifying the platform.
+
+| Design Resource | Format | Repository |
+|---|---|---|
+| Complete Robot Assembly | STEP | [View](Mechanical_Design/Complete_Robot/Complete_Robot_Assembly.stp) |
+| 3-RRS Mechanism | STEP | [View](Mechanical_Design/Complete_Robot/3RRS_Mechanism.stp) |
+| Original CAD Package | ZIP | [View](Mechanical_Design/Complete_Robot/Ensamblaje1.zip) |
+| Native Inventor Assembly | IAM, IPT, IPJ | [View](Inventor_Source_Files/) |
+| Mechanical Drawings | CAD, PDF | [View](Engineering_Drawings/) |
+| Kinematic Analysis | MATLAB | [View](Kinematic_Analysis/) |
+| CAD Visualizations | PNG | [View](CAD_Visualizations/) |
+| Physical Prototype | JPG | [View](Physical_Prototype_Photos/) |
+| PCB Design | KiCad, Gerber, STEP | [View](Power_Distribution_PCB/) |
+
+---
+
+## 8. Repository Structure
+
+    Vision-Based-Ball-Balancing-3RRS/
+    |
+    |-- Mechanical_Design/
+    |   `-- Complete_Robot/
+    |       |-- Complete_Robot_Assembly.stp
+    |       |-- 3RRS_Mechanism.stp
+    |       |-- Ensamblaje1.zip
+    |       `-- README.md
+    |
+    |-- Inventor_Source_Files/
+    |   |-- DSM_CAD_REPARADO.ipj
+    |   |-- Ensamblaje1.iam
+    |   |-- Piezas/
+    |   |-- Dependencias/
+    |   `-- _Verificacion/
+    |
+    |-- CAD_Visualizations/
+    |   |-- Full_Robot_Assembly.png
+    |   |-- Full_Robot_Exploded_View.png
+    |   |-- 3RRS_Mechanism_Exploded_View.png
+    |   |-- Camera_and_LED_System.png
+    |   `-- Additional CAD images
+    |
+    |-- Physical_Prototype_Photos/
+    |   `-- Prototype photographs
+    |
+    |-- Power_Distribution_PCB/
+    |   |-- kicad/
+    |   |-- cnc_L414/
+    |   |-- cad3d/
+    |   |-- diagramas/
+    |   |-- imagenes/
+    |   |-- termico/
+    |   `-- Technical documentation
+    |
+    |-- Engineering_Drawings/
+    |   `-- Planos.zip
+    |
+    |-- Kinematic_Analysis/
+    |   `-- Cinemática_RSS.m.txt
+    |
+    |-- README.md
+    `-- LICENSE
+
+---
+
+## 9. Opening the Autodesk Inventor Project
+
+**Required CAD Software:**
+Autodesk Inventor Professional 2025.
+
+### Instructions
+
+1. Clone or download the complete repository.
+2. Preserve the original directory structure.
 3. Open Autodesk Inventor Professional 2025.
 4. Activate the project file:
-   `Updated_Assembly/DSM_CAD_REPARADO.ipj`
+
+   `Inventor_Source_Files/DSM_CAD_REPARADO.ipj`
+
 5. Open the main assembly:
-   `Updated_Assembly/Ensamblaje1.iam`
-6. Allow Inventor to load the referenced components.
-7. Inspect the assembly and its mechanical configuration.
 
-The `Piezas` and `Dependencias` folders contain
-the component files required by the repaired project.
+   `Inventor_Source_Files/Ensamblaje1.iam`
 
-### Reference Repair and Verification
+6. Allow Inventor to resolve the referenced
+   components and dependencies.
+7. Verify the assembly structure and
+   mechanical constraints.
 
-The updated assembly was prepared as an independent
-copy to preserve the original CAD workspace.
+The source project includes native Inventor
+parts, subassemblies, and supporting
+verification records.
 
-The verification records are located in:
+### Verification Resources
 
-[Updated_Assembly/_Verificacion](Updated_Assembly/_Verificacion/)
+The verification files are located in:
 
-The recorded portable-project test reported:
+[Inventor Assembly Verification](Inventor_Source_Files/_Verificacion/)
 
-- Successful opening of the extracted assembly.
-- Successful closing and reopening.
-- No missing references in the recorded test.
-- Effective reference paths within the extracted project.
-- Original source files preserved during repair.
-
-These results document the performed verification
-and do not replace checking the assembly after
-downloading it into a new environment.
+These records document previous assembly
+and reference checks. Users should also
+verify the assembly in their local
+CAD environment.
 
 ---
 
-## 7. Four-Piece Protective Cover
+## 10. Kinematic Analysis
 
-An updated protective-cover configuration was developed
-to improve coverage of the electronic components while
-maintaining clearance around the balancing mechanism.
+The 3-RRS parallel mechanism is supported
+by a MATLAB-based inverse-kinematics model.
 
-The cover consists of four independent CAD components:
+The analysis relates the desired platform
+orientation to the actuator configuration
+through the geometry of the parallel
+mechanism.
 
-1. Upper-left cover.
-2. Upper-right cover.
-3. Lower-left cover.
-4. Lower-right cover.
+**Source files:**
 
-The native Autodesk Inventor files are available in:
+[Kinematic Analysis](Kinematic_Analysis/)
 
-[Updated_Assembly/Piezas/Tapa_2 cuadrantes](Updated_Assembly/Piezas/Tapa_2%20cuadrantes/)
+The currently published source uses
+the `.m.txt` filename extension.
 
-The design incorporates mounting holes and internal
-cutouts adapted to the geometry of the robot.
-
-**Important:** The four-piece protective cover is
-documented as a CAD design improvement. The physical
-prototype shown in the photographs does not include
-these protective-cover components.
+For MATLAB execution, a working copy
+can be saved using the `.m` extension.
 
 ---
 
-## 8. CAD Figures
+## 11. Design Reproduction Guidelines
 
-The [Figures](Figures/) directory contains CAD views
-used for the technical documentation.
+For mechanical and electronic reproduction:
 
-### 3-RRS Mechanism
+1. Review the available CAD models.
+2. Inspect the engineering drawings.
+3. Verify dimensions and component materials.
+4. Check actuator operating limits.
+5. Verify mechanical clearances.
+6. Inspect the PCB connection diagrams.
+7. Review electrical protection requirements.
+8. Validate the assembly before operation.
 
-<p align="center">
-  <img src="Figures/fig8_mechanism.png"
-       alt="3-RRS balancing mechanism with labeled components"
-       width="720">
-</p>
+CAD visualizations represent the
+documented design configurations.
 
-<p align="center">
-  <em>CAD representation of the 3-RRS balancing mechanism.</em>
-</p>
-
-### Integrated Robot
-
-<p align="center">
-  <img src="Figures/fig9a_isometric_labeled.png"
-       alt="Labeled isometric CAD view of the robot"
-       width="720">
-</p>
-
-<p align="center">
-  <em>Updated CAD representation of the integrated robot.</em>
-</p>
-
-Additional front, side, top, and isometric views are
-available in the same directory.
+Physical prototype photographs document
+the hardware arrangement shown at the
+time of acquisition.
 
 ---
 
-## 9. Physical Prototype Photographs
+## 12. Original Project and Acknowledgments
 
-The photographs of the physical assembly are available in:
+The 3-RRS Ball-and-Plate mechanism was adapted
+from the open-source Ball-Balancing-Robot
+project developed by **I-M-Robotics-Lab**.
 
-[Assembly_Photos](Assembly_Photos/)
+Original repository:
 
-| File | Description |
-|---|---|
-| `assembly_01_overview.jpg` | Isometric overview of the assembled prototype |
-| `assembly_02_front.jpg` | Front view of the TETRIX chassis |
-| `assembly_03_side.jpg` | Side view showing wheels and internal wiring |
-| `assembly_04_power_switch.jpg` | Power switch and mechanical fastening details |
+[Ball-Balancing-Robot — I-M-Robotics-Lab](https://github.com/I-M-Robotics-Lab/Ball-Balancing-Robot)
 
-These photographs document the physical arrangement
-of the chassis, balancing mechanism, wheels,
-mechanical supports, and wiring.
+The present work integrates the mechanism
+with a differential-drive mobile robot,
+vision hardware, distributed control,
+and a dedicated power-distribution PCB.
 
-They are provided as visual references for the
-hardware construction and assembly documentation.
+The original design attribution and
+applicable licensing conditions are preserved.
 
 ---
 
-## 10. Technical Drawings
+## 13. License
 
-The technical drawings package is available in:
+This repository includes the
+**GNU General Public License v3.0**.
 
-[Planos/Planos.zip](Planos/Planos.zip)
+See the [LICENSE](LICENSE) file
+for the complete license text.
 
-The package contains CAD drawing resources associated
-with the mechanical design.
-
-These drawings supplement the 3D CAD assemblies
-and support mechanical inspection and reproduction.
-
----
-
-## 11. Kinematic Analysis
-
-The MATLAB implementation used for the analysis
-of the 3-RRS mechanism is available in:
-
-[Cinemática_RSS](Cinem%C3%A1tica_RSS/)
-
-The script contains the geometric and mathematical
-operations associated with the kinematic model.
-
-The analysis includes the relationship between the
-desired platform orientation and the corresponding
-actuator configuration.
+Third-party components and reused
+resources remain subject to their
+respective licensing and attribution
+requirements.
 
 ---
 
-## 12. Design Reproduction Notes
+## 14. Project Information
 
-For mechanical reproduction of the project:
+**Project Title:**
 
-1. Review the bill of materials in the technical report.
-2. Download the CAD assembly and its dependencies.
-3. Inspect the TETRIX chassis and the 3-RRS mechanism.
-4. Consult the available technical drawings.
-5. Verify the dimensions, material properties, and
-   mechanical fasteners before fabrication.
-6. Check the actuator travel and mechanical clearances.
-7. Follow the electrical and operating precautions
-   described in the project documentation.
-
-The updated protective covers should be treated
-as CAD components unless their fabrication and
-physical validation are independently documented.
-
----
-
-## 13. Original Project and Acknowledgment
-
-The 3-RRS Ball-and-Plate mechanism was adapted from
-the open-source Ball Balancing Robot project developed
-by the I-M-Robotics-Lab.
-
-Original project:
-
-https://github.com/I-M-Robotics-Lab/Ball-Balancing-Robot
-
-The present implementation integrates the mechanism
-with a TETRIX differential-drive mobile platform
-and the project's electronic and control architecture.
-
----
-
-## 14. License
-
-This repository includes the GNU General Public License
-Version 3.0 (GPL-3.0).
-
-See the [LICENSE](LICENSE) file for additional details.
-
-Any reused third-party designs, software, or components
-remain subject to their respective applicable licenses.
-
----
-
-## 15. Project Information
-
-**Project:** Vision-Based Ball Balancing Using a
-3-RRS Parallel Mechanism Mounted on a
+Vision-Based Ball Balancing Using a 3-RRS
+Parallel Mechanism Mounted on a
 Differential-Drive Mobile Robot.
 
-**Institution:** Universidad de Ingeniería y
-Tecnología (UTEC), Lima, Peru.
+**Institution:**
+Universidad de Ingeniería y Tecnología (UTEC).
 
-**Course:** Diseño de Sistemas Mecatrónicos (DSM).
+**Location:**
+Lima, Peru.
 
-**CAD Software:** Autodesk Inventor Professional 2025.
+**Course:**
+Diseño de Sistemas Mecatrónicos (DSM).
 
-**Computing Platforms:** NI myRIO-1900 and Raspberry Pi 5.
+**Mechanical CAD:**
+Autodesk Inventor Professional 2025.
 
-**Repository:** Mechanical design, CAD assemblies,
-kinematic analysis, technical drawings, and
-physical prototype documentation.
+**Electronic Design:**
+KiCad 9.
+
+**Engineering Analysis:**
+MATLAB.
+
+**Computing Platforms:**
+NI myRIO-1900 and Raspberry Pi 5.
+
+**Repository Contents:**
+Mechanical CAD, PCB design, engineering
+drawings, kinematic analysis, CAD visualizations,
+and physical prototype documentation.
